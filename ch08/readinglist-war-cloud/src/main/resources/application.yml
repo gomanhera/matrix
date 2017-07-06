@@ -1,3 +1,7 @@
+management:
+  security:
+    enabled: false
+    
 error:
   whitelabel:
     enabled: false

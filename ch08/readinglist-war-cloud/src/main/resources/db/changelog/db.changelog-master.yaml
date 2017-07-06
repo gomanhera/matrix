@@ -3,6 +3,7 @@ databaseChangeLog:
       id: 1
       author: habuma
       changes:
+      
         - createTable:
             tableName: reader
             columns:
@@ -22,6 +23,7 @@ databaseChangeLog:
                   type: varchar(50)
                   constraints:
                     nullable: false
+                    
         - createTable:
             tableName: book
             columns:
@@ -59,8 +61,10 @@ databaseChangeLog:
                     nullable: false
                     references: reader(username)
                     foreignKeyName: fk_reader_username
+                    
         - createSequence:
             sequenceName: hibernate_sequence
+            
         - insert:
            tableName: reader
            columns:
