@@ -17,5 +17,4 @@ create table Book (
 
 create sequence hibernate_sequence;
 
-insert into Reader (username, password, fullname)
-            values ('craig', 'password', 'Craig Walls');
+insert into Reader (username, password, fullname) values ('admin', '1', 'admin');

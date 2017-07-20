@@ -31,6 +31,17 @@ public class ReadingListController {
         }
         return "readingList";
     }
+
+    @RequestMapping(value = "/findProject", method = RequestMethod.GET)
+    public String findProject(Reader reader, Model model) {
+        // List<Book> readingList = readingListRepository.findByReader(reader);
+        // if (readingList != null) {
+        //     model.addAttribute("books", readingList);
+        //     model.addAttribute("reader", reader);
+        //     model.addAttribute("amazonID", amazonProperties.getAssociateId());
+        // }
+        return "findProject";
+    }    
   
     @RequestMapping(method = RequestMethod.POST)
     public String addToReadingList(Reader reader, Book book) {
