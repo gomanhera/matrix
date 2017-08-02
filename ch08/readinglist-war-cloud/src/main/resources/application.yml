@@ -24,8 +24,8 @@ amazon:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/readinglist
-    username: root
-    password: root  
+    username: dev
+    password: dev  
 
 #  datasource:
 #    url: jdbc:postgresql://localhost:5432/readinglist

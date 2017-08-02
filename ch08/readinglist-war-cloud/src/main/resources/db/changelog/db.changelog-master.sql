@@ -1,6 +1,9 @@
 --liquibase formatted sql
 
---changeset root:1
+--changeset kjb:1
+
+use readinglist;
+
 create table Reader (
     id serial primary key,
     username varchar(25) unique not null,
@@ -18,6 +21,10 @@ create table Book (
     foreign key (reader_username) references Reader(username)
 );
 
-create sequence hibernate_sequence;
+--create sequence hibernate_sequence;
 
 insert into Reader (username, password, fullname) values ('admin', '1', 'admin');
+
+--changeset kjb:2
+update Reader set password = '1234' where username = 'admin';
+insert into Reader (username, password, fullname) values ('test', '1', '1234');
