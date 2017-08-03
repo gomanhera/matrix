@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.manning</groupId>
-	<artifactId>readinglist</artifactId>
+	<artifactId>automatrix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>Reading List</name>
-	<description>Reading List Demo</description>
+	<name>Auto Matrix</name>
+	<description>Auto Matrix Demo</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

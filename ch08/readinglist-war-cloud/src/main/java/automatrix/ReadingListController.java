@@ -1,4 +1,4 @@
-package readinglist;
+package automatrix;
 
 import java.util.List;
 

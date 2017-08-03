@@ -1,4 +1,4 @@
-package readinglist;
+package automatrix;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

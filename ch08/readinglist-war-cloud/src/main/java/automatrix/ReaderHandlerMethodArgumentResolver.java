@@ -1,4 +1,4 @@
-package readinglist;
+package automatrix;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.security.core.Authentication;
